@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T15:08:14 IST" name="Default suite" finished-at="2022-08-22T15:11:15 IST" duration-ms="181481">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T15:08:14 IST" name="Default test" finished-at="2022-08-22T15:11:15 IST" duration-ms="181481">
+      <class name="fedexCILStaging.FedExCILOrderCreation">
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:fedexCILStaging.FedExCILOrderCreation@65fb9ffc]" started-at="2022-08-22T15:08:14 IST" name="login" finished-at="2022-08-22T15:08:25 IST" duration-ms="11117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void fedexCILStaging.FedExCILOrderCreation.fedEXCILOrder() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fedEXCILOrder()[pri:0, instance:fedexCILStaging.FedExCILOrderCreation@65fb9ffc]" started-at="2022-08-22T15:08:25 IST" name="fedEXCILOrder" finished-at="2022-08-22T15:11:15 IST" duration-ms="170110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fedEXCILOrder -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:fedexCILStaging.FedExCILOrderCreation@65fb9ffc]" started-at="2022-08-22T15:11:15 IST" name="getResult" finished-at="2022-08-22T15:11:15 IST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fedEXCILOrder status=SUCCESS method=FedExCILOrderCreation.fedEXCILOrder()[pri:0, instance:fedexCILStaging.FedExCILOrderCreation@65fb9ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="Complete()[pri:0, instance:fedexCILStaging.FedExCILOrderCreation@65fb9ffc]" started-at="2022-08-22T15:11:15 IST" name="Complete" finished-at="2022-08-22T15:11:15 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Complete -->
+        <test-method is-config="true" signature="SendEmail()[pri:0, instance:fedexCILStaging.FedExCILOrderCreation@65fb9ffc]" started-at="2022-08-22T15:11:15 IST" name="SendEmail" finished-at="2022-08-22T15:11:30 IST" duration-ms="14966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendEmail -->
+      </class> <!-- fedexCILStaging.FedExCILOrderCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
